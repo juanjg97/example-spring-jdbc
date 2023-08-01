@@ -1,0 +1,24 @@
+docker exec -it mysql-jdbc-curse mysql -u juan -p
+
+docker exec -it mysql-jdbc-curse mysql -u root -p
+password: root-password
+
+SELECT User, Host FROM mysql.user;
+
+CTRL+L
+
+show databases;
+
+SELECT DATABASE();
+
+USE firstdb;
+
+CREATE TABLE employee();
+
+desc employee;
+
+INSERT INTO employee VALUES (,,,,)
+
+INSERT INTO employee(,,,,) VALUES (,,,,)
+
+
